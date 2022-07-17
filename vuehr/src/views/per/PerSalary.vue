@@ -400,7 +400,7 @@
                         </el-col>
                         <el-col :span="5">
                             <el-form-item label="职称:" prop="jobLevelId">
-                                <el-select v-model="emp.jobLevelId" placeholder="职称" size="mini" style="width: 150px;" readonly="readonly">
+                                <el-select v-model="emp.jobLevelId" placeholder="职称" size="mini" style="width: 150px;" >
                                     <el-option
                                             v-for="item in joblevels"
                                             :key="item.id"
