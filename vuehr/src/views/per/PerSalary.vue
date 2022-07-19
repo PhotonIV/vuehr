@@ -328,7 +328,7 @@
                         <el-col :span="6">
                             <el-form-item label="姓名:" prop="name">
                                 <el-input size="mini" style="width: 150px" prefix-icon="el-icon-edit" v-model="emp.name"
-                                          placeholder="请输入员工姓名" readonly></el-input>
+                                          placeholder="请输入员工姓名" disabled></el-input>
                             </el-form-item>
                         </el-col>
                         <el-col :span="5">
