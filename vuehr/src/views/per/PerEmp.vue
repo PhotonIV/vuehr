@@ -460,7 +460,7 @@
                         <el-col :span="6">
                             <el-form-item label="工号:" prop="workID">
                                 <el-input size="mini" style="width: 150px" prefix-icon="el-icon-edit"
-                                          v-model="emp.workID" placeholder="工号" disable></el-input>
+                                          v-model="emp.workID" placeholder="工号" readonly></el-input>
                             </el-form-item>
                         </el-col>
                         <el-col :span="5">
@@ -479,7 +479,7 @@
                         <el-col :span="6">
                             <el-form-item label="毕业院校:" prop="school">
                                 <el-input size="mini" style="width: 150px" prefix-icon="el-icon-edit"
-                                          v-model="emp.school" placeholder="毕业院校名称"></el-input>
+                                          v-model="emp.school" placeholder="毕业院校名称" readonly></el-input>
                             </el-form-item>
                         </el-col>
                         <el-col :span="7">
